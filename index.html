@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>나의 플레이 리스트</title>
+	<style type="text/css">
+		div{background: black;}
+		h1{margin: auto; text-align: center; color: white; padding: 100px;}
+		h5{color: white; padding: 50px; }
+		img{display: block; margin: auto; width: 500px}
+		.heart{width: 300px}
+		.but{opacity: 1}
+		.but:hover{ opacity: 0.5 }
+
+
+	</style>
+</head>
+<body>
+	<div><h1>PLAY LIST ♥</h1>
+		<img src="t1.png">
+
+		<img src="1.png" class="but" id="a" >
+		<audio src="1.mp3" loop id="as"></audio>
+
+		<img src="2.png" class="but" id="b">
+		<audio src="2.mp3" loop id="bs"></audio>
+
+		<img src="3.png" class="but" id="c">
+		<audio src="3.mp3" loop id="cs"></audio>
+
+		<img src="4.png" class="but" id="d">
+		<audio src="4.mp3" loop id="ds"></audio>
+
+		<img src="5.png" class="but" id="e">
+		<audio src="5.mp3" loop id="es"></audio>
+
+		<img src="6.png" class="but" id="f">
+		<audio src="6.mp3" loop id="fs"></audio>
+
+		<img src="7.png" class="but" id="g">
+		<audio src="7.mp3" loop id="gs"></audio>
+
+		<img src="8.png" class="but" id="h">
+		<audio src="8.mp3" loop id="hs"></audio>
+
+		<img src="9.png" class="but" id="j">
+		<audio src="9.mp3" loop id="js"></audio>
+
+		<img src="t2.png" style="padding-bottom: 100px">
+
+		<img src="heart.gif" class="heart">
+		<h5>Hknu Design 2017286042 Lee Jiyeon </h5>
+
+	</div>
+
+	<script type="text/javascript">
+		var astate = "off";
+		a.onclick = function(){
+			if(astate == "off"){
+				a.style.opacity = "0.5";
+				document.body.style.background = "url(a.png)";
+				document.body.style.backgroundSize = "cover";
+				as.play();
+				astate = "on";	
+			}else{
+				a.style.opacity = "1";
+				as.pause();
+				astate = "off";	
+			}
+		}
+
+		var bstate = "off";
+		b.onclick = function(){
+			if(bstate == "off"){
+				b.style.opacity = "0.5";
+				document.body.style.background = "url(b.png)";
+				document.body.style.backgroundSize = "cover";
+				bs.play();
+				bstate = "on";	
+			}else{
+				b.style.opacity = "1";
+				bs.pause();
+				bstate = "off";	
+			}
+		}
+
+		var cstate = "off";
+		c.onclick = function(){
+			if(cstate == "off"){
+				c.style.opacity = "0.5";
+				document.body.style.background = "url(c.png)";
+				document.body.style.backgroundSize = "cover";
+				cs.play();
+				cstate = "on";	
+			}else{
+				c.style.opacity = "1";
+				cs.pause();
+				cstate = "off";	
+			}
+		}
+	
+	var dstate = "off";
+		d.onclick = function(){
+			if(cstate == "off"){
+				d.style.opacity = "0.5";
+				document.body.style.background = "url(d.png)";
+				document.body.style.backgroundSize = "cover";
+				ds.play();
+				dstate = "on";	
+			}else{
+				d.style.opacity = "1";
+				ds.pause();
+				dstate = "off";	
+			}
+		}
+
+		var estate = "off";
+		e.onclick = function(){
+			if(estate == "off"){
+				e.style.opacity = "0.5";
+				document.body.style.background = "url(e.png)";
+				document.body.style.backgroundSize = "cover";
+				es.play();
+				estate = "on";	
+			}else{
+				e.style.opacity = "1";
+				es.pause();
+				estate = "off";	
+			}
+		}
+
+		var fstate = "off";
+		f.onclick = function(){
+			if(fstate == "off"){
+				f.style.opacity = "0.5";
+				document.body.style.background = "url(f.png)";
+				document.body.style.backgroundSize = "cover";
+				fs.play();
+				fstate = "on";	
+			}else{
+				f.style.opacity = "1";
+				fs.pause();
+				fstate = "off";	
+			}
+		}
+
+		var gstate = "off";
+		g.onclick = function(){
+			if(gstate == "off"){
+				g.style.opacity = "0.5";
+				document.body.style.background = "url(g.png)";
+				document.body.style.backgroundSize = "cover";
+				gs.play();
+				gstate = "on";	
+			}else{
+				g.style.opacity = "1";
+				gs.pause();
+				gstate = "off";	
+			}
+		}
+
+		var hstate = "off";
+		h.onclick = function(){
+			if(hstate == "off"){
+				h.style.opacity = "0.5";
+				document.body.style.background = "url(h.png)";
+				document.body.style.backgroundSize = "cover";
+				hs.play();
+				hstate = "on";	
+			}else{
+				h.style.opacity = "1";
+				hs.pause();
+				hstate = "off";	
+			}
+		}
+
+		var jstate = "off";
+		j.onclick = function(){
+			if(jstate == "off"){
+				j.style.opacity = "0.5";
+				document.body.style.background = "url(j.png)";
+				document.body.style.backgroundSize = "cover";
+				js.play();
+				jstate = "on";	
+			}else{
+				j.style.opacity = "1";
+				js.pause();
+				jstate = "off";	
+			}
+		}
+
+	</script>
+</body>
+</html>
